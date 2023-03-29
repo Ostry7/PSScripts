@@ -1,4 +1,4 @@
-#Copy2 *.csv log files to another folder older than X days
+#Copy *.csv log files to another folder older than X days
 $path = "E:\Zerto\Zerto Virtual Replication\logs\log.*.csv"
 $Destination = "C:\Users\plzz09t3\Desktop\Monitoring\"
 $daysback = (0)
