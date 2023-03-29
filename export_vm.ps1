@@ -1,5 +1,6 @@
-﻿function Export-ZertoVMConfig {
-    <#1
+﻿#dupa
+function Export-ZertoVMConfig {
+    <#
     .Parameter ZVMServer
         String parameter taking either IP address or a hostname of a ZVM you want to get the export from
     .Description
