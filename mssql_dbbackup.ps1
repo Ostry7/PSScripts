@@ -5,13 +5,13 @@ function Backup-mssql
 {
     <#
         .SYNOPSIS
-        Creating database backup. 
+        Creating MSSQL database backup. 
 
         .DESCRIPTION
         Create a backup for propper database which are given in config. Based on $isDifferentialBackup you can create FULL or DIFF db backup. This script can be used in Windows Sheduler.
 
         .EXAMPLE
-        PS> Create-DB_Backup
+        PS> Backup-mssql
     #>
 $serverInstance = 'SERVER INSTANCE'
 $databaseName = 'DATABASENAME'
