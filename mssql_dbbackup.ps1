@@ -1,7 +1,7 @@
 #######################################
 #            ©MarekOstrowski          #
 #######################################
-function Create-DB_Backup
+function Create-MSSQL_Backup
 {
     <#
         .SYNOPSIS
